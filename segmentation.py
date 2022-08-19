@@ -6,7 +6,7 @@ from torchvision.io.image import read_image
 from torchvision.models.segmentation import fcn_resnet50, FCN_ResNet50_Weights
 from torchvision.transforms.functional import to_pil_image
 
-st.title('PyTorch Segmentation')
+st.title('PyTorch Human Segmentation')
 
 img_file_buffer = st.camera_input("Take a picture")
 
